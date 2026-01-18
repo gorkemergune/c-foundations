@@ -69,7 +69,8 @@ int main() {
         printf("Invalid choice\n");
     }
 
-    runCallback(sayHello); // passing function as callback
+    runCallback(sayHello); // passing function as callback 
+    // one function is passed to another function as an argument
     
     return 0;
 }
