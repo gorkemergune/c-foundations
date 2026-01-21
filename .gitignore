@@ -8,6 +8,7 @@ a.out
 
 # Build directories
 build/
+.DS_Store
 
 # Debug / crash files
 core
