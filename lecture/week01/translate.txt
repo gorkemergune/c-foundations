@@ -1,0 +1,76 @@
+1. Source File (Kaynak dosya)
+Senin yazdığın dosya:
+conversion.c
+Bu: insan tarafından okunabilir text formatında henüz makine tarafından çalıştırılamaz
+
+2. Compiler (Derleyici) → gcc
+Bu komut:
+gcc main.c -o main
+compiler’ı çalıştırır.
+
+Compiler’ın görevi:
+C code → machine code
+Ama direkt executable üretmez. Önce: Object file üretir.
+
+3. Object File (.o)
+Bu ara dosyadır.
+Örnek:
+main.o
+
+Özellikleri:
+binary format
+makine diline yakın
+ama henüz çalıştırılamaz
+Eksik parçalar olabilir (örneğin printf).
+
+4. Linker
+Linker’ın görevi:
+Eksik parçaları tamamlamak.
+
+Örnek:
+Sen şunu yazdın:
+printf("Hello");
+ama printf senin kodunda değil. O: C standard library içinde.
+Linker bunu bulur ve bağlar.
+
+Sonuç:
+Executable file
+5. Executable File
+Bu dosya: main
+Artık çalıştırılabilir.
+Sen bunu çalıştırırsın: ./main
+
+6. Loader
+Bu noktada işletim sistemi devreye girer.
+
+Loader:
+executable’ı RAM’e yükler
+CPU’ya verir
+program çalışır
+Gerçek hayattaki tam süreç
+Senin yazdığın:
+main.c
+
+↓
+
+compiler:
+
+main.o
+
+↓
+
+linker:
+
+main
+
+
+↓
+
+loader:
+
+./main
+
+
+↓
+
+program çalışır

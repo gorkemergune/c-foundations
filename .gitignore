@@ -2,6 +2,7 @@
 a.out
 *.out
 *.exe
+*.out
 
 # Object files
 *.o
@@ -9,6 +10,7 @@ a.out
 # Build directories
 build/
 .DS_Store
+.vscode
 
 # Debug / crash files
 core

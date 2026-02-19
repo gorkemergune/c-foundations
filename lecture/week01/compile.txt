@@ -1,0 +1,6 @@
+Terminalden projenin bulunduğu dosyaya ulaşılcak.
+cd Desktop/.....
+c dosyası compile edilecek
+gcc main.c -o main
+compile edilen dosya çalıştırılacak
+./main
