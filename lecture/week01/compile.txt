@@ -4,3 +4,7 @@ c dosyası compile edilecek
 gcc main.c -o main
 compile edilen dosya çalıştırılacak
 ./main
+
+
+hızlı çalıştır ve sil
+gcc -o main main.c && ./main && rm main
