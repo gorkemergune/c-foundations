@@ -50,4 +50,4 @@ int main(){
     return 0;
 }
 
-// printf("Total bill: %.2f\n", total_bill);
+// gcc -o main main.c && ./main && rm main
