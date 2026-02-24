@@ -8,7 +8,7 @@ int main() {
     p = 2.0;
 
     x = m / p;
-    y = m / n;
+    y = m / (n * 1.0) ;
 
     printf("x = %f\n", x); // 1.500000
     printf("y = %f\n", y); // 1.00ß0000
