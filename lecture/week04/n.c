@@ -1,6 +1,16 @@
 #include <stdio.h>
 
-// Kullanıcıdan aldığı yüksekliğe göre N harbi çizdiren program 
+// Kullanıcıdan aldığı yüksekliğe göre N harfi çizdiren program 
+// h: 5
+//
+//  *               *
+//  *   *           *
+//  *       *       *
+//  *          *    * 
+//  *               *
+//
+
+
 int main() {
     int h;
     printf("Enter h: "); scanf("%d", &h);
