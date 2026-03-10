@@ -77,6 +77,14 @@ void filter_high_usage(float usage[], int size, float result[], int *new_size) {
     }
 }
 
+int detect_streak(int scores[], int size) {
+    for(int i = 0; i < size - 2; i++){
+        if(scores[i] < scores[i+1] && scores[i+1] < scores[i+2]) 
+        return 1;
+    }
+    return 0;
+}
+
 
 int main() {
 
