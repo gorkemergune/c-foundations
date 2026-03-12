@@ -40,6 +40,7 @@ void task4_grade_average_sentinel() {
             count++;
         }
     } while (grade >= 0);
+
     if (count > 0) {
         printf("Average grade: %.2f\n", (double)sum / count);
     } else {
@@ -57,6 +58,8 @@ void task5_nested_pattern() {
         printf("\n");
     }
 }
+
+
 
 int main() {
 
