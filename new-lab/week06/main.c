@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//void draw_number_pattern();
-//void second_largest();
-//void rotate_array();
-//void convert_to_binary();
-//void greeting();
+void draw_number_pattern();
+void second_largest();
+void rotate_array();
+void convert_to_binary();
+void greeting();
 
 void greeting() {
 	int state = 1;
