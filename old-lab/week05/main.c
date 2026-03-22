@@ -10,13 +10,12 @@ int find_mid_steps(int steps[7]) {
     return min;
 }
 
-int reverse_array(int arr[], int size) {
+void reverse_array(int arr[], int size) {
     for (int i = 0; i < size / 2; i++) {
         int temp = arr[i];
         arr[i] = arr[size - 1 - i];
         arr[size - 1 - i] = temp;
     }
-
 }
 
 int find_first_occurrence(int arr[], int size, int target) {
@@ -72,8 +71,7 @@ void filter_high_usage(float usage[], int size, float result[], int *new_size) {
             result[j] = usage[i]; // python'da result.append(usage[i]) gibi
             j++; // result'taki j indexlerine yazıyoruz.
     }
-    new_size = j+1; // new_size'ı güncelliyoruz.
-
+    *new_size = j+1; // new_size'ı güncelliyoruz.
     }
 }
 
@@ -88,7 +86,10 @@ int detect_streak(int scores[], int size) {
 
 int main() {
 
+    find_mid_steps((int[7]){1000, 2000, 1500, 3000, 2500, 4000, 3500});
 
+    int arr[5] = {1, 2, 3, 4, 5};
+    reverse_array(arr, 5);
 
 
     return 0;
