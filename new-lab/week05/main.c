@@ -47,6 +47,10 @@ int weeks_in_year(int year) {
     return days_in_year(year) / 7;
 }
 
+int months_in_year(int year) {
+    return days_in_year(year) / 30; 
+}
+
 int main() {
     int year;
 
@@ -63,6 +67,7 @@ int main() {
     scanf("%d", &end_year);
     printf("%d ile %d arasındaki yıllar toplam %d gün içerir.\n", start_year, end_year, between_years(start_year, end_year));
 
+    
 
     return 0;
 }
