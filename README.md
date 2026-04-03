@@ -8,12 +8,34 @@ This repository is structured as a daily practice log and reflects continuous im
 
 # Resources to be used at the camp:
 
-- https://www.w3schools.com/c/index.php
+## Document:
 
-- https://www.learn-c.org
+- [W3 School](https://www.w3schools.com/c/index.php)
 
-- https://www.w3resource.com/c-programming-exercises
+- [Learn-C](https://www.learn-c.org)
 
-- https://www.hackerrank.com/domains/c
+## Lecture:
 
+- Yeditepe University 2026 Spring Term (CSE 114)
 
+## New-lab:
+
+- Yeditepe University 2026 Spring Term (CSE 114)
+
+## Old-lab:
+
+- Yeditepe University 2026 Fall Term (CSE 114)
+
+## Tutorial Videos:
+
+- [From scratch - Bro Code](https://www.youtube.com/watch?v=xND0t1pr3KY)
+
+- [Intermediate - C Programming Projects](https://www.youtube.com/playlist?list=PLiLzqLEAMKr7_oTKOosIP1QH4GTlZe29G)
+
+- 
+
+## Solving Problem:
+
+- [HackerRank](https://www.hackerrank.com/domains/c)
+
+- [W3 Resource](https://www.w3resource.com/c-programming-exercises/)
