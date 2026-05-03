@@ -100,8 +100,8 @@ Small projects I built in C to apply and extend the concepts learned in the cour
 
 | Project | Description |
 |---------|-------------|
-| [sorting-visualizer](https://github.com/GorkemParadise/sorting-visualizer) | A visual demonstration of classic sorting algorithms (bubble, insertion, selection, quick, merge). Helpful for internalizing the mechanics behind each algorithm. |
-| [raylib-space-shooter](https://github.com/GorkemParadise/raylib-space-shooter) | A small 2D space-shooter game built with the [raylib](https://www.raylib.com) graphics library. A practical exercise in structuring a small C codebase, managing game state, and handling real-time input. |
+| [sorting-visualizer](https://github.com/gorkemergune/sorting-visualizer) | A visual demonstration of classic sorting algorithms (bubble, insertion, selection, quick, merge). Helpful for internalizing the mechanics behind each algorithm. |
+| [raylib-space-shooter](https://github.com/gorkemergune/raylib-space-shooter) | A small 2D space-shooter game built with the [raylib](https://www.raylib.com) graphics library. A practical exercise in structuring a small C codebase, managing game state, and handling real-time input. |
 
 ---
 
