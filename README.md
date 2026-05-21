@@ -30,7 +30,6 @@ The repository is organized by topic and chronology. A typical directory layout:
 
 ```
 c-foundations/
-├── arc/                # Midterm - Final exams questions and solutions
 ├── document/           # General information from W3School
 ├── extra/              # Questions containing thought-provoking
 ├── homework/           # Every semester the professor gives it
@@ -76,7 +75,6 @@ CSE 114 is a foundational course that introduces the C programming language alon
 - Lecture notes rewritten in my own words
 - Runnable code examples for every major topic
 - Solved lab exercises, organized by week
-- Worked solutions for past and practice exams
 
 ---
 
