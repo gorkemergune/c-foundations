@@ -134,6 +134,7 @@ int is_power_of_two(unsigned int n) {
 // `void xor_swap(int *a, int *b)`
 // dont use temp, use only XOR. `a = 5, b = 9` → after recall `a = 9, b = 5`
 // a = 0101, b = 1001
+
 void xor_swap(int *a, int *b) {
     if (a == b) return;
     *a = *a ^ *b;
@@ -145,6 +146,30 @@ void xor_swap(int *a, int *b) {
 // `void reverse_words(char *s)`
 // Change word's order, reverse it. `"Hello guys we are"` → `"are we guys Hello"`
 
+void reverse_words(char *s) {
+    int space_count = 0;
+    char *p = s;
+    while (*p) {
+        if (*p == ' ') space_count++;
+        p++;
+    }
+    char *words[space_count + 1];
+    int index = 0;
+    char *start = s;
+    for (int i = 0; i <= space_count; i++) {
+        words[i] = start;
+        while (*start && *start != ' ') {
+            start++;
+        }
+        if (*start) {
+            *start = '\0';
+            start++;
+        }
+    }
+    for (int i = space_count; i >= 0; i--) {
+        printf("%s ", words[i]);
+    }
+}
 
 
 
@@ -164,7 +189,7 @@ int main() {
     move_zeros(arr4, 5);
     printf("Q4: ");
     print_arr(arr4, 5);
-    printf("\n\n");
+    printf("\n");
 
     printf("Q5: ");
     printf("`level`:%d ", is_palindrome_rec("level", 0, 4));
@@ -179,5 +204,15 @@ int main() {
     printf("Q8: %d\n\n", count_set_bits(13));
 
     printf("Q9: 16?: %d,  7?: %d\n\n",is_power_of_two(16), is_power_of_two(7));
+
+    int a = 5, b = 9;
+    xor_swap(&a, &b);
+    printf("Q10: a: %d, b: %d\n\n", a, b);
+
+    char s2[] = "Hello guys we are";
+    printf("Q11: ");
+    reverse_words(s2);
+    printf("\n\n");
+
     return 0;
 }
